@@ -7,7 +7,13 @@ OpenDCM is **not affiliated with, endorsed by or connected to Thermia**. It does
 ## How it works
 
 ```
-Thermia iTec  --RS485-->  ESP32 (ESPHome)  --API-->  Home Assistant  --REST/WebSocket-->  OpenDCM
+Thermia iTec
+   |  RS485
+ESP32 (ESPHome)
+   |  API
+Home Assistant
+   |  REST / WebSocket
+OpenDCM
 ```
 
 The app never talks to the pump. It only reads entities from Home Assistant. The firmware that exposes the pump data is a separate project: [thermia-itec-dcm-esphome](https://github.com/Korsberg/thermia-itec-dcm-esphome).
