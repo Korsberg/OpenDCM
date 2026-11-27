@@ -50,16 +50,14 @@ Early development. Read-only. See [docs/ROADMAP.md](docs/ROADMAP.md).
 ## Requirements
 
 - Home Assistant with the Thermia iTec entities (see [docs/HOME_ASSISTANT.md](docs/HOME_ASSISTANT.md))
-- A Mac with a recent Xcode
+- A Mac with a recent Xcode (once the source is published)
 - An Apple ID (a free account works, but needs re-signing every 7 days)
 
-## Build
+## Source code
 
-1. Clone the repo and open the Xcode project in `OpenDCM/`.
-2. Copy `OpenDCM/Config/Secrets.example.plist` to `Secrets.plist` (it is git-ignored) and fill in your own Home Assistant address and token, or enter them in the app's settings.
-3. Select your device and run.
+Coming soon. The app works today, but the code still contains settings for my own installation. Before it is published here, personal defaults will be removed and the entity prefix will become a setting, so it can be built for any Thermia iTec with the [DCM gateway](https://github.com/Korsberg/thermia-itec-dcm-esphome). See the [roadmap](docs/ROADMAP.md).
 
-No address, token or entity id is built into the app.
+When published, building will take a Mac with Xcode and your own Apple ID. Address and token are entered in the app's settings and stored in the device keychain.
 
 ## Privacy
 
