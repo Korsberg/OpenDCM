@@ -19,7 +19,7 @@ Early development. Read-only. See [docs/ROADMAP.md](docs/ROADMAP.md).
 ## Requirements
 
 - Home Assistant with the Thermia iTec entities (see [docs/HOME_ASSISTANT.md](docs/HOME_ASSISTANT.md))
-- A Mac with Xcode 17 or later (iOS 18 or later target)
+- A Mac with a recent Xcode
 - An Apple ID (a free account works, but needs re-signing every 7 days)
 
 ## Build
