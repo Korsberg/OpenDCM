@@ -26,6 +26,10 @@ On iPad the overview uses two columns in landscape, with the display and the who
 |---|---|
 | <img src="docs/screenshots/ipad-portrait.jpg" width="370"> | <img src="docs/screenshots/ipad-outdoor-unit.jpg" width="370"> |
 
+During a defrost, with today's electricity split into heating, hot water, defrost and standby:
+
+<img src="docs/screenshots/ipad-defrost-energy.jpg" width="760">
+
 The app is in Swedish for now. English is on the roadmap.
 
 ## Working today
@@ -38,6 +42,7 @@ The app is in Swedish for now. English is on the roadmap.
 - **Menus**: Information and Service, mirroring the pump's own menu structure. Read-only.
 - **Alarms**: active alarm and alarm history.
 - **Outdoor unit**: running status from the unit's own run signal, plus starts and run time today.
+- **Where the electricity goes**: today's heat pump electricity split into heating, hot water, defrost and standby, drawn as a flow (Sankey) diagram.
 - **iPad layout**: two columns in landscape, stacked in portrait, larger charts.
 - **Widget**: home screen and lock screen widget with operating mode and key values.
 
